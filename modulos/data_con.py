@@ -64,7 +64,7 @@ class DataConn:
                 table,
                 con=self.db_engine,
                 schema=self.schema,
-                if_exists='replace',
+                if_exists='append',
                 index=False
             )
 
@@ -79,4 +79,3 @@ class DataConn:
             logging.info("Connection to Redshift closed.")
         else:
             logging.warning("No active connection to close.")
-

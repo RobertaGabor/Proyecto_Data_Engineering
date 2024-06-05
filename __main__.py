@@ -27,7 +27,7 @@ def main():
     data_retriever = DataRetriever()
 
     try:
-        data = data_retriever.get_data()
+        data = data_retriever.get_data() #data from api
         data_conn.upload_data(data, table)
         logging.info(f"Data uploaded to -> {schema}.{table}")
 
