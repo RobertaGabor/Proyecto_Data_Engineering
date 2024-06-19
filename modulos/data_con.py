@@ -60,6 +60,21 @@ class DataConn:
         try:
             # Crear una columna compuesta 'id'
             data['id'] = data['nombre'] + '_' + data['fechaActualizacion'].astype(str)
+
+            #eliminar filas con id duplicado
+
+            redshift_ids_query = f"SELECT id FROM {self.schema}.{table}"
+            redshift_ids = pd.read_sql(redshift_ids_query, con=self.db_engine)
+            redshift_ids_set = set(redshift_ids['id'].tolist())
+
+            print(f"BEFORE {data} --")
+            data = data[~data['id'].isin(redshift_ids_set)]
+            print(f"AFTER {data} --")
+            
+            if data.empty:
+                logging.info("No new data to upload. All IDs are already in the table.")
+                return
+            
             data.to_sql(
                 table,
                 con=self.db_engine,
