@@ -1,0 +1,842 @@
+[2024-07-03T22:16:23.342+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:23.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:16:23.365+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:16:23.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:23.446+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:16:23.417+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos import DataConn , DataRetriever
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:16:23.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:23.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.310 seconds
+[2024-07-03T22:16:53.793+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:53.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:16:53.806+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:16:53.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:53.825+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:16:53.822+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos import DataConn , DataRetriever
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:16:53.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:16:53.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.135 seconds
+[2024-07-03T22:17:24.052+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:24.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:17:24.080+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:17:24.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:24.133+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:17:24.119+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos import DataConn , DataRetriever
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:17:24.146+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:24.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.267 seconds
+[2024-07-03T22:17:54.733+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:54.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:17:54.831+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:17:54.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:54.912+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:17:54.895+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos import DataConn , DataRetriever
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:17:54.918+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:17:55.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.663 seconds
+[2024-07-03T22:20:33.774+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:20:33.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:20:33.779+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:20:33.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:20:33.963+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:20:33.800+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:20:33.967+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:20:34.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.245 seconds
+[2024-07-03T22:21:05.046+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:05.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:21:05.121+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:21:05.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:05.199+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:21:05.184+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:21:05.205+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:05.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.517 seconds
+[2024-07-03T22:21:35.712+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:35.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:21:35.730+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:21:35.728+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:35.764+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:21:35.756+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:21:35.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:21:35.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.137 seconds
+[2024-07-03T22:22:06.028+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:06.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:22:06.064+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:22:06.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:06.120+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:22:06.107+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:22:06.123+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:06.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.321 seconds
+[2024-07-03T22:22:36.503+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:36.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:22:36.521+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:22:36.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:36.545+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:22:36.539+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:22:36.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:22:36.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.173 seconds
+[2024-07-03T22:23:06.773+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:06.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:23:06.775+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:23:06.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:06.787+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:23:06.784+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:23:06.788+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:06.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.035 seconds
+[2024-07-03T22:23:37.020+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:37.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:23:37.031+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:23:37.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:37.049+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:23:37.046+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:23:37.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:23:37.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.131 seconds
+[2024-07-03T22:24:07.275+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:07.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:24:07.279+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:24:07.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:07.289+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:24:07.286+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:24:07.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:07.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.037 seconds
+[2024-07-03T22:24:37.412+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:37.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:24:37.414+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:24:37.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:37.424+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:24:37.422+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:24:37.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:24:37.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.030 seconds
+[2024-07-03T22:25:07.558+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:25:07.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:25:07.560+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:25:07.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:25:07.569+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:25:07.567+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:25:07.571+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:25:07.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.030 seconds
+[2024-07-03T22:26:50.627+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:26:50.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:26:50.634+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:26:50.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:26:50.651+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:26:50.648+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:26:50.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:26:50.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.102 seconds
+[2024-07-03T22:27:21.248+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:21.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:27:21.317+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:27:21.308+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:21.389+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:27:21.370+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:27:21.394+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:21.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.473 seconds
+[2024-07-03T22:27:53.501+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:53.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:27:53.643+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:27:53.634+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:53.742+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:27:53.723+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:27:53.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:27:54.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.982 seconds
+[2024-07-03T22:28:25.758+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:28:25.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:28:25.890+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:28:25.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:28:26.223+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:28:25.998+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 3, in <module>
+    from ..modulos.data_con import DataConn
+ImportError: attempted relative import with no known parent package
+[2024-07-03T22:28:26.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:28:26.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 1.551 seconds
+[2024-07-03T22:50:21.096+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:21.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:50:21.098+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:50:21.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:22.294+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:50:22.290+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 22, in <module>
+    'start_date': datetime(2024,7,3),
+                  ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2024-07-03T22:50:22.297+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:22.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 1.219 seconds
+[2024-07-03T22:50:47.713+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:47.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:50:47.715+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:50:47.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:47.941+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:50:47.937+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 22, in <module>
+    'start_date': datetime(2024,7,3),
+                  ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2024-07-03T22:50:47.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:50:47.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.247 seconds
+[2024-07-03T22:51:18.086+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:18.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:51:18.088+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:51:18.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:18.453+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:51:18.449+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 22, in <module>
+    'start_date': datetime(2024,7,3),
+                  ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2024-07-03T22:51:18.456+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:18.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.386 seconds
+[2024-07-03T22:51:39.187+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:39.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:51:39.189+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:51:39.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:39.552+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:51:39.548+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 130, in <module>
+    dag=api_dag,
+        ^^^^^^^
+NameError: name 'api_dag' is not defined
+[2024-07-03T22:51:39.554+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:51:39.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.383 seconds
+[2024-07-03T22:52:09.704+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:09.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:52:09.706+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:09.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:09.942+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:09.938+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_USD.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_USD.py", line 130, in <module>
+    dag=api_dag,
+        ^^^^^^^
+NameError: name 'api_dag' is not defined
+[2024-07-03T22:52:09.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:09.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.258 seconds
+[2024-07-03T22:52:31.065+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:31.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:52:31.066+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:31.426+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:52:31.581+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.580+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:Proyecto_Final_USD_ETL
+[2024-07-03T22:52:31.589+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.589+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:Proyecto_Final_USD_ETL
+[2024-07-03T22:52:31.597+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.597+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:Proyecto_Final_USD_ETL
+[2024-07-03T22:52:31.598+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.598+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:52:31.605+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.605+0000] {dag.py:3118} INFO - Creating ORM DAG for Proyecto_Final_USD_ETL
+[2024-07-03T22:52:31.612+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:52:31.612+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:52:31.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.567 seconds
+[2024-07-03T22:53:01.771+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:01.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:53:01.773+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:01.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:02.142+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:02.160+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:02.159+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:53:02.173+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:02.173+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:53:02.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.421 seconds
+[2024-07-03T22:53:32.312+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:32.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:53:32.314+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:32.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:32.679+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:53:32.697+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:32.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:53:32.712+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:53:32.712+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:53:32.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.420 seconds
+[2024-07-03T22:54:02.877+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:02.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:54:02.879+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:02.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:03.270+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:03.288+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:03.287+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:54:03.301+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:03.300+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:54:03.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.448 seconds
+[2024-07-03T22:54:33.454+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:33.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:54:33.456+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:33.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:33.680+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:54:33.830+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:33.830+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:54:33.844+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:54:33.844+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:54:33.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.409 seconds
+[2024-07-03T22:55:04.000+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:04.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:55:04.002+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:04.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:04.348+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:04.364+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:04.364+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:55:04.377+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:04.377+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:55:04.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.395 seconds
+[2024-07-03T22:55:34.531+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:34.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:55:34.533+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:34.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:34.880+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:55:34.895+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:34.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:55:34.908+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:55:34.907+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:55:34.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.393 seconds
+[2024-07-03T22:56:00.647+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:00.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:56:00.649+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:00.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:01.081+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:01.099+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:01.099+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:56:01.117+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:01.116+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:56:01.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.493 seconds
+[2024-07-03T22:56:31.184+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:31.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:56:31.186+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:31.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:31.400+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:56:31.537+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:31.537+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:56:31.550+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:56:31.550+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:56:31.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.381 seconds
+[2024-07-03T22:57:01.688+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:01.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:57:01.690+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:01.690+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:02.042+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:02.058+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:02.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:57:02.072+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:02.072+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:57:02.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.402 seconds
+[2024-07-03T22:57:32.219+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:32.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:57:32.221+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:32.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:32.576+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:57:32.591+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:32.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:57:32.603+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:57:32.603+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:57:32.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.403 seconds
+[2024-07-03T22:58:02.756+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:02.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:58:02.758+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:02.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:03.088+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:03.103+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:03.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:58:03.116+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:03.116+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:58:03.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.378 seconds
+[2024-07-03T22:58:33.264+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:33.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:58:33.266+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:33.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:33.593+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:58:33.608+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:33.608+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:58:33.621+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:58:33.621+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:58:33.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.374 seconds
+[2024-07-03T22:59:03.769+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:03.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:59:03.771+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:03.771+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:04.095+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:04.111+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:04.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:59:04.124+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:04.123+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:59:04.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.371 seconds
+[2024-07-03T22:59:34.272+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:34.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T22:59:34.274+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:34.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:34.608+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T22:59:34.624+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:34.624+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T22:59:34.637+0000] {logging_mixin.py:188} INFO - [2024-07-03T22:59:34.637+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T22:59:34.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.382 seconds
+[2024-07-03T23:00:04.787+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:04.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:00:04.789+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:04.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:05.145+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:05.162+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:05.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:00:05.175+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:05.175+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:00:05.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.405 seconds
+[2024-07-03T23:00:35.331+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:35.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:00:35.333+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:35.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:35.704+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:00:35.719+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:35.719+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:00:35.732+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:00:35.732+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:00:35.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.419 seconds
+[2024-07-03T23:01:05.879+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:05.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:01:05.881+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:05.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:06.227+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:06.245+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:06.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:01:06.258+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:06.258+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:01:06.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.395 seconds
+[2024-07-03T23:01:36.410+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:36.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:01:36.412+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:36.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:36.764+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:01:36.781+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:36.781+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:01:36.797+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:01:36.796+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:01:36.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.406 seconds
+[2024-07-03T23:02:06.948+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:06.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:02:06.950+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:06.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:07.302+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:07.317+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:07.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:02:07.329+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:07.329+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:02:07.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.401 seconds
+[2024-07-03T23:02:37.476+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:37.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:02:37.477+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:37.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:37.811+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:02:37.827+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:37.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:02:37.840+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:02:37.840+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:02:37.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.381 seconds
+[2024-07-03T23:03:07.988+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:07.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:03:07.990+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:07.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:08.330+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:08.346+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:08.346+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:03:08.359+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:08.359+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:03:08.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.389 seconds
+[2024-07-03T23:03:38.508+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:38.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:03:38.510+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:38.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:38.855+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:03:38.872+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:38.871+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:03:38.885+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:03:38.885+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:03:38.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.396 seconds
+[2024-07-03T23:04:09.035+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:09.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:04:09.037+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:09.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:09.360+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:09.375+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:09.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:04:09.387+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:09.387+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:04:09.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.370 seconds
+[2024-07-03T23:04:39.535+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:39.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:04:39.537+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:39.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:39.870+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:04:39.886+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:39.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:04:39.900+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:04:39.900+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:04:39.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.383 seconds
+[2024-07-03T23:05:10.050+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:10.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:05:10.052+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:10.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:10.399+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:10.414+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:10.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:05:10.428+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:10.428+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:05:10.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.396 seconds
+[2024-07-03T23:05:40.585+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:40.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:05:40.587+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:40.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:40.909+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:05:40.926+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:40.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:05:40.938+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:05:40.938+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:05:40.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.369 seconds
+[2024-07-03T23:06:11.086+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:11.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:06:11.088+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:11.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:11.568+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:11.583+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:11.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:06:11.598+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:11.598+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:06:11.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.530 seconds
+[2024-07-03T23:06:41.756+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:41.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:06:41.757+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:41.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:42.422+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:06:42.447+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:42.446+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:06:42.472+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:06:42.471+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:06:42.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.742 seconds
+[2024-07-03T23:07:12.628+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:12.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:07:12.629+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:12.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:12.996+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:13.012+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:13.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:07:13.025+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:13.025+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:07:13.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.415 seconds
+[2024-07-03T23:07:43.175+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:43.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:07:43.177+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:43.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:43.557+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:07:43.574+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:43.574+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:07:43.587+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:07:43.587+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:07:43.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.432 seconds
+[2024-07-03T23:08:13.739+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:13.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:08:13.741+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:13.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:14.080+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:14.100+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:14.100+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:08:14.118+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:14.118+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:08:14.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.402 seconds
+[2024-07-03T23:08:36.841+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:36.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:08:36.843+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:36.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:37.231+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:08:37.248+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:37.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:08:37.261+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:08:37.261+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:08:37.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.440 seconds
+[2024-07-03T23:09:07.379+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:07.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:09:07.382+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:07.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:07.765+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:07.783+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:07.783+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:09:07.797+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:07.796+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:09:07.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.438 seconds
+[2024-07-03T23:09:37.955+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:37.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:09:37.957+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:37.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:38.289+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:09:38.304+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:38.304+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:09:38.318+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:09:38.317+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:09:38.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.381 seconds
+[2024-07-03T23:10:04.066+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:04.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:10:04.067+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:04.067+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:04.414+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:04.430+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:04.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:10:04.442+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:04.442+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:10:04.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.396 seconds
+[2024-07-03T23:10:34.581+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:34.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:10:34.583+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:34.583+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:34.955+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:10:34.972+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:34.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:10:34.986+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:10:34.985+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:10:35.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.423 seconds
+[2024-07-03T23:11:05.142+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:05.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:11:05.144+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:05.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:05.506+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:05.525+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:05.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:11:05.541+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:05.541+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:11:05.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.423 seconds
+[2024-07-03T23:11:35.701+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:35.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:11:35.703+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:35.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:36.033+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:11:36.049+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:36.049+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:11:36.064+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:11:36.064+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:11:36.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.382 seconds
+[2024-07-03T23:12:06.214+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:06.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:12:06.216+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:06.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:06.566+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:06.584+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:06.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:12:06.598+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:06.597+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:12:06.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.405 seconds
+[2024-07-03T23:12:36.756+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:36.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:12:36.758+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:36.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:37.105+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:12:37.122+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:37.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:12:37.135+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:12:37.135+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:12:37.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.396 seconds
+[2024-07-03T23:13:07.286+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:07.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:13:07.288+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:07.288+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:07.684+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:07.701+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:07.701+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:13:07.719+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:07.718+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:13:07.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.457 seconds
+[2024-07-03T23:13:30.865+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:30.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:13:30.867+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:30.867+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:31.211+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:13:31.228+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:31.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:13:31.244+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:13:31.243+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:13:31.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.399 seconds
+[2024-07-03T23:14:01.395+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:01.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:14:01.397+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:01.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:01.743+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:01.759+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:01.759+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:14:01.775+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:01.774+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:14:01.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.398 seconds
+[2024-07-03T23:14:31.923+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:31.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:14:31.925+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:31.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:32.267+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:14:32.285+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:32.284+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:14:32.298+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:14:32.298+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:14:32.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.393 seconds
+[2024-07-03T23:15:02.443+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:02.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:15:02.445+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:02.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:02.785+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:02.801+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:02.801+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:15:02.814+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:02.814+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:15:02.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.389 seconds
+[2024-07-03T23:15:32.962+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:32.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:15:32.964+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:32.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:33.408+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:33.426+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:33.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:15:33.441+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:33.441+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:15:33.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.499 seconds
+[2024-07-03T23:15:58.086+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:58.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:15:58.088+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:58.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:58.447+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:15:58.465+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:58.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:15:58.481+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:15:58.481+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:15:58.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.417 seconds
+[2024-07-03T23:16:28.637+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:28.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:16:28.639+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:28.639+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:28.995+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:29.012+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:29.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:16:29.026+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:29.026+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:16:29.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.408 seconds
+[2024-07-03T23:16:59.183+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:59.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:16:59.185+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:59.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:59.535+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:16:59.551+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:59.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:16:59.565+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:16:59.565+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:16:59.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.399 seconds
+[2024-07-03T23:17:29.712+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:17:29.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:17:29.714+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:17:29.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:17:30.042+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:17:30.058+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:17:30.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:17:30.071+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:17:30.071+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:17:30.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.378 seconds
+[2024-07-03T23:18:00.220+0000] {processor.py:161} INFO - Started process (PID=469) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:00.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:18:00.222+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:00.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:00.549+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:00.565+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:00.565+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:18:00.579+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:00.579+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:18:00.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.377 seconds
+[2024-07-03T23:18:15.304+0000] {processor.py:161} INFO - Started process (PID=477) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:15.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:18:15.306+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:15.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:15.654+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:15.670+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:15.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:18:15.684+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:15.684+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:18:15.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.406 seconds
+[2024-07-03T23:18:45.801+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:45.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:18:45.803+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:45.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:46.131+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:18:46.146+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:46.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:18:46.158+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:18:46.158+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:18:46.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.373 seconds
+[2024-07-03T23:19:16.305+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:16.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:19:16.307+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:16.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:16.645+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:16.661+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:16.661+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:19:16.675+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:16.675+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:19:16.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.387 seconds
+[2024-07-03T23:19:18.732+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:18.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:19:18.734+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:18.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:19.096+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:19.113+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:19.113+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:19:19.128+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:19.127+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:19:19.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.419 seconds
+[2024-07-03T23:19:49.288+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:49.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:19:49.290+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:49.290+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:49.630+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:19:49.646+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:49.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:19:49.658+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:19:49.658+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:19:49.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.390 seconds
+[2024-07-03T23:20:19.805+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:19.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:20:19.807+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:19.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:20.141+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:20.156+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:20.156+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:20:20.170+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:20.170+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:20:20.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.382 seconds
+[2024-07-03T23:20:50.335+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:50.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:20:50.337+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:50.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:50.692+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:20:50.710+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:50.710+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:20:50.724+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:20:50.724+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:20:50.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.409 seconds
+[2024-07-03T23:21:20.870+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:20.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:21:20.872+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:20.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:21.199+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:21.216+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:21.216+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:21:21.229+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:21.229+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:21:21.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.376 seconds
+[2024-07-03T23:21:29.919+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:29.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:21:29.921+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:29.921+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:30.266+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:21:30.281+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:30.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:21:30.294+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:21:30.294+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:21:30.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.394 seconds
+[2024-07-03T23:22:00.433+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:00.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:22:00.434+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:00.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:00.775+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:00.790+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:00.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:22:00.803+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:00.803+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:22:00.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.387 seconds
+[2024-07-03T23:22:01.851+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:01.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:22:01.853+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:01.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:02.225+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:02.242+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:02.242+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:22:02.257+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:02.257+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:22:02.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.427 seconds
+[2024-07-03T23:22:32.408+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:32.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:22:32.410+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:32.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:32.788+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:22:32.804+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:32.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:22:32.816+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:22:32.816+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:22:32.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.424 seconds
+[2024-07-03T23:23:02.971+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:02.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:23:02.974+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:02.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:03.367+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:03.385+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:03.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:23:03.397+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:03.397+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:23:03.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.451 seconds
+[2024-07-03T23:23:21.522+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:21.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:23:21.524+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:21.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:21.865+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:21.882+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:21.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:23:21.895+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:21.895+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:23:21.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.394 seconds
+[2024-07-03T23:23:24.963+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:24.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:23:24.964+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:24.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:25.366+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:25.384+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:25.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:23:25.399+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:25.399+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:23:25.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.462 seconds
+[2024-07-03T23:23:55.566+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:55.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:23:55.568+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:55.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:55.899+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:23:55.915+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:55.915+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:23:55.929+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:23:55.929+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:23:55.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.384 seconds
+[2024-07-03T23:24:05.006+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:05.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:24:05.008+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:05.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:05.414+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:05.432+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:05.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:24:05.449+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:05.449+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:24:05.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.470 seconds
+[2024-07-03T23:24:35.615+0000] {processor.py:161} INFO - Started process (PID=583) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:35.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:24:35.617+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:35.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:36.104+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:24:36.132+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:36.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:24:36.160+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:24:36.160+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:24:36.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.570 seconds
+[2024-07-03T23:25:06.256+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:06.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:25:06.258+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:06.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:06.602+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:06.619+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:06.619+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:25:06.632+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:06.632+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:25:06.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.394 seconds
+[2024-07-03T23:25:11.342+0000] {processor.py:161} INFO - Started process (PID=599) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:11.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:25:11.344+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:11.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:11.686+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:11.702+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:11.702+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:25:11.716+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:11.716+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:25:11.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.397 seconds
+[2024-07-03T23:25:41.823+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:41.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_USD.py for tasks to queue
+[2024-07-03T23:25:41.825+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:41.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:42.508+0000] {processor.py:840} INFO - DAG(s) 'Proyecto_Final_USD_ETL' retrieved from /opt/airflow/dags/ETL_USD.py
+[2024-07-03T23:25:42.533+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:42.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-03T23:25:42.553+0000] {logging_mixin.py:188} INFO - [2024-07-03T23:25:42.553+0000] {dag.py:3954} INFO - Setting next_dagrun for Proyecto_Final_USD_ETL to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2024-07-03T23:25:42.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_USD.py took 0.752 seconds

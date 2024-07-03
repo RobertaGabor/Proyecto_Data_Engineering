@@ -9,4 +9,5 @@
   - **Instalar los requisitos en el entorno virtual (VENV):** `pip install -r requirements.txt`
   - **Ejecutar desde la carpeta del proyecto:** `python Proyecto_Data_Engineering`
   - **Desactivar el entorno virtual (VENV):** `deactivate`
+  - **Ejecutar el docker airflow:** `docker compose up --build`
 - Luego, puedes eliminar las carpetas `__pycache__` y `venv`.

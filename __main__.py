@@ -14,7 +14,7 @@ load_dotenv()
 def main():
     user_credentials = {
         "REDSHIFT_USERNAME" : os.getenv('REDSHIFT_USERNAME'),
-        "REDSHIFT_PASSWORD" : os.getenv('REDSHIFT_PASSWORD'),
+        "REDSHIFT_PASSWORD" : os.getenv('c'),
         "REDSHIFT_HOST" : os.getenv('REDSHIFT_HOST'),
         "REDSHIFT_PORT" : os.getenv('REDSHIFT_PORT', '5439'),
         "REDSHIFT_DBNAME" : os.getenv('REDSHIFT_DBNAME')

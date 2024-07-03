@@ -16,15 +16,14 @@ class DataConn:
 
 
     def get_conn(self):
-        username = self.config.get('REDSHIFT_USERNAME')
-        password = self.config.get('REDSHIFT_PASSWORD')
-        host = self.config.get('REDSHIFT_HOST')
-        port = self.config.get('REDSHIFT_PORT', '5439')
-        dbname = self.config.get('REDSHIFT_DBNAME')
+        username = self.config.get('username')
+        password = self.config.get('pwd')
+        host = self.config.get('host')
+        port = self.config.get('port', '5439')
+        dbname = self.config.get('database')
 
         # Construct the connection URL
-        connection_url = f"postgresql+psycopg2://{username}:{password}@{host}:{port}/{dbname}"
-        self.db_engine = create_engine(connection_url)
+        self.db_engine = create_engine(host)
 
         try:
             with self.db_engine.connect() as connection:
@@ -51,7 +50,7 @@ class DataConn:
                 raise ValueError(f"No {table_name} has been created")
 
             logging.info(f"{table_name} exists")
-
+    
     def upload_data(self, data: pd.DataFrame, table: str):
         if self.db_engine is None:
             logging.warn("Execute it before")
@@ -67,10 +66,8 @@ class DataConn:
             redshift_ids = pd.read_sql(redshift_ids_query, con=self.db_engine)
             redshift_ids_set = set(redshift_ids['id'].tolist())
 
-            print(f"BEFORE {data} --")
             data = data[~data['id'].isin(redshift_ids_set)]
-            print(f"AFTER {data} --")
-            
+
             if data.empty:
                 logging.info("No new data to upload. All IDs are already in the table.")
                 return
